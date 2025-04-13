@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+}
+
+.navigation {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
